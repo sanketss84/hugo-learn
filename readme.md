@@ -8,7 +8,7 @@ The hugo docs is a great place to start the [quick start](https://gohugo.io/gett
 1. [Mike Dane | Hugo - Static Site Generator | Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3)
 2. [Chris Styate | Create A Website For 12$](https://www.youtube.com/playlist?list=PL-Kz5P-mYdMgAJDmRJquyMHfdaIOD-3oj)
    
-Please do check these out as it covers a lot of amazing conepts 
+Please do check these out as it covers a lot of amazing concepts 
 
 **TODO**
 
