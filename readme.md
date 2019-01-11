@@ -12,8 +12,9 @@ Please do check these out as it covers a lot of amazing concepts
 
 **TODO**
 
-- [ ] setup netlify for ci cd to pull code from git repo
+- [X] setup netlify for ci cd to pull code from git repo
   - [ ] check if the site is refreshed automatically as soon as code is pushed to git branch
+  - [ ] netlify [continuos deployment](https://www.netlify.com/docs/continuous-deployment/?_ga=2.181209447.1704778281.1547214950-567085231.1547214950#deploy-contexts)
 - [ ] setup a google domain name
 - [ ] point the google domain to netlify code base
 - [ ] setup netlify cms 
