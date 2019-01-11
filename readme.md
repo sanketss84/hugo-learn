@@ -25,15 +25,15 @@ Please do check these out as it covers a lot of amazing concepts
 - [ ] over ride theme css - [article](https://discourse.gohugo.io/t/how-to-override-css-classes-with-hugo/3033/3) digitalcraftsman apr 16 reply
   
 **Themes To Check**
-[mediumish](https://themes.gohugo.io/mediumish-gohugo-theme/) looks like medium
-[Hugo Bootstrap](https://themes.gohugo.io/hugo-bootstrap/)
-[Casper Two](https://themes.gohugo.io/theme/hugo-casper-two/)
-[Cactus Plus](https://themes.gohugo.io/hugo-theme-cactus-plus/)
-[Bulma](https://themes.gohugo.io/bulma/)
-[Kube](https://themes.gohugo.io/kube/)
-[Bootstrap-BP](https://themes.gohugo.io/bootstrap-bp-hugo-theme/)
+* [mediumish](https://themes.gohugo.io/mediumish-gohugo-theme/) looks like medium
+* [Hugo Bootstrap](https://themes.gohugo.io/hugo-bootstrap/)
+* [Casper Two](https://themes.gohugo.io/theme/hugo-casper-two/)
+* [Cactus Plus](https://themes.gohugo.io/hugo-theme-cactus-plus/)
+* [Bulma](https://themes.gohugo.io/bulma/)
+* [Kube](https://themes.gohugo.io/kube/)
+* [Bootstrap-BP](https://themes.gohugo.io/bootstrap-bp-hugo-theme/)
 
 **Optional**
-[rocktopus](https://themes.gohugo.io/rocktopus/)
+* [rocktopus](https://themes.gohugo.io/rocktopus/)
 
 
