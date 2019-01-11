@@ -32,6 +32,8 @@ Please do check these out as it covers a lot of amazing concepts
 * [Bulma](https://themes.gohugo.io/bulma/)
 * [Kube](https://themes.gohugo.io/kube/)
 * [Bootstrap-BP](https://themes.gohugo.io/bootstrap-bp-hugo-theme/)
+* [Tale](https://themes.gohugo.io/tale-hugo/)
+  
 
 **Optional**
 * [rocktopus](https://themes.gohugo.io/rocktopus/)
