@@ -1,4 +1,9 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Hugo Learn"
-theme = "gohugo-theme-ananke"
+# theme = "gohugo-theme-ananke"
+theme = "ga-hugo-theme"
+
+# [taxonomies]
+#     tag = "tags"
+#     category = "categories"

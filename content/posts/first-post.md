@@ -1,7 +1,7 @@
 +++
 title =  "First Post"
 date = 2019-01-11T19:42:41+05:30
-tags = []
+tags = ["first","post"]
 featured_image = ""
 description = ""
 +++
