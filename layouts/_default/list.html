@@ -1,8 +1,19 @@
 {{ define "main" }}
      {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
      {{.Content}}
+     <br>
      {{ range .Pages }}
-          <div style="border: 1px solid black; margin:10px; padding:10px; ">
+
+          <div class="alert alert-secondary" role="alert">                    
+               <h4> <a href="{{.URL}}">{{.Title}}</a> </h4>
+               <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+               <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+               <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+               <div style="color:grey; font-size:16px;">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+               <p>{{.Summary}}</p>
+          </div>
+
+          <!-- <div style="border: 2px solid grey; margin:10px; padding:10px; ">
                <div style="font-size:20px;">
                     <a href="{{.URL}}">{{.Title}}</a>
                </div>
@@ -12,7 +23,7 @@
                <div style="color:grey; font-size:16px;">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
 
                <p style="font-size:18px;">{{.Summary}}</p>
-          </div>
+          </div> -->
      {{ end }}
      {{ partial "footer" . }}
 {{end}}
