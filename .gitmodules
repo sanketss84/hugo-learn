@@ -2,4 +2,9 @@
 	path = "themes/gohugo-theme-ananke"
 	url = "https://github.com/budparr/gohugo-theme-ananke.git"
 
+[submodule "themes/ga-hugo-theme"]
+	path = "themes/ga-hugo-theme"
+	url = "https://github.com/sanketss84/ga-hugo-theme.git"
+
+
 
